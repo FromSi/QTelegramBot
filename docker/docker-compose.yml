@@ -1,0 +1,9 @@
+version: '3.8'
+
+services:
+  cpp:
+    build:
+      context: cpp
+      dockerfile: Dockerfile
+    volumes:
+      - ../:/usr/src/app:delegated

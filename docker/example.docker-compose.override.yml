@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  cpp:
+    build:
+      args:
+        USER_ID: 1000
+        GROUP_ID: 1000
+    environment:
+      - QTELEGRAM_TELEGRAM_BOT_TOKEN_API="token_bot"
+      - QTELEGRAM_TELEGRAM_BOT_QUIZ_HEADER="Question:"
+      - QTELEGRAM_TELEGRAM_BOT_DISABLE_NOTIFICATION="false"

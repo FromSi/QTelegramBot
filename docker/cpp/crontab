@@ -1,0 +1,6 @@
+SHELL=/bin/bash
+PATH=/sbin:/bin:/usr/sbin:/usr/bin
+MAILTO=""
+
+* * * * * user cd /usr/src/app && ./cmake-docker/app -c >/dev/null 2>&1
+* * * * * user cd /usr/src/app && ./cmake-docker/app -sq >/dev/null 2>&1

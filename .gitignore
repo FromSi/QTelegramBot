@@ -1,0 +1,6 @@
+/.vscode
+/.idea
+/cmake
+/cmake-docker
+database.sqlite
+docker/docker-compose.override.yml
