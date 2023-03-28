@@ -2,7 +2,7 @@
 Его задача отправлять по времени CRON викторины (quiz) в зарегистрированные группы.
 
 <p align="center">
-  <img src="https://github.com/fnc12/sqlite_orm/blob/master/screenshots/s1.jpg" height="400"/>
+  <img src="https://github.com/FromSi/QTelegramBot/blob/master/screenshots/s1.jpg" height="400"/>
 </p>
 
 ## Возможности проекта
