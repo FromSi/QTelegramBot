@@ -36,7 +36,6 @@ docker_install:
 	cp ./docker/example.docker-compose.override.yml ./docker/docker-compose.override.yml
 	cp ./docker/cpp/example.crontab ./docker/cpp/crontab
 	chmod +x ./docker/cpp/docker-entrypoint.sh
-	docker compose -f ./docker/docker-compose.yml -f ./docker/docker-compose.override.yml up --build
 
 # [DOCKER] Run docker
 .PHONY: docker_run
