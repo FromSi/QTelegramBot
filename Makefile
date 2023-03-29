@@ -51,7 +51,7 @@ docker_stop:
 # [DOCKER] Login to cpp container
 .PHONY: docker_cpp
 docker_cpp:
-	docker compose -f ./docker/docker-compose.yml -f ./docker/docker-compose.override.yml exec cpp bash -l
+	docker compose -f ./docker/docker-compose.yml -f ./docker/docker-compose.override.yml exec -u user cpp bash -l
 
 # Help
 .PHONY: help
