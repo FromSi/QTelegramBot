@@ -24,7 +24,7 @@ RUN apt update && apt install -y \
 RUN git clone -b v1.6 https://github.com/reo7sp/tgbot-cpp && \
     cd tgbot-cpp && \
     cmake . && \
-    make -j4 && \
+    make && \
     make install && \
     cd ../ && \
     rm -rf tgbot-cpp

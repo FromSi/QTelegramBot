@@ -28,7 +28,7 @@ dev_init:
 dev_build:
 	$(MAKE) all_sqlite_update
 	$(MAKE) dev_configure
-	cd $$(pwd)/cmake && make -j4
+	cd $$(pwd)/cmake && make
 
 # [DOCKER] Install docker
 .PHONY: docker_install
