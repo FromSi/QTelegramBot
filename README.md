@@ -59,6 +59,7 @@ File | Settings | Build, Execution, Deployment | CMake
 
 1. Запустить команду `make docker_install`
 1. Редактировать необходимые данные в файле `./docker/docker-compose.override.yml`
+1. Редактировать CRON время в файле `./docker/cpp/crontab`
 1. Запустить команду `make docker_run`
 
 Чтобы остановить docker, нужно выполнить `make docker_stop`
