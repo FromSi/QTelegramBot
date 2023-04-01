@@ -5,6 +5,8 @@
   <img src="https://github.com/FromSi/QTelegramBot/blob/master/screenshots/s1.jpg" height="400"/>
 </p>
 
+Демо версия работы телеграм бота. Был сделан бот переводчик на основе шаблона [QTranslateBot](https://t.me/quiz_translate_bot). Его работу можно увидеть в группе [Illuminati Inc.](https://t.me/illuminatinc)
+
 ## Возможности проекта
 * Токен бота можно установить через переменную `QTELEGRAM_TELEGRAM_BOT_TOKEN_API`
 * Заголовочный текст перед вопросом также можно установить через переменную `QTELEGRAM_TELEGRAM_BOT_QUIZ_HEADER`
